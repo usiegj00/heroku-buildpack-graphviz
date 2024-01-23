@@ -15,6 +15,10 @@
 # More information here: https://devcenter.heroku.com/articles/buildpack-api
 #------------------------------------------------------------------------------#
 
+echo "-----> NOT Installing Graphviz binaries"
+
+exit 0
+
 set -e
 
 a() { sed 's/^/-----> /'; }
